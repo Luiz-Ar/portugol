@@ -1,14 +1,15 @@
-//8) FOI FEITA UMA PESQUISA DE AUDIÊNCIA DE CANAL DE TV EM VÁRIAS CASAS DE UMA CERTA CIDADE, NUM DETERMINADO DIA.
-//PARA CADA CASA VISITADA, É FORNECIDO O NÚMERO DO CANAL (2,4,5,7,9,11 OU 13) E O NÚMERO DE PESSOAS QUE O ESTAVAM
+//8) FOI FEITA UMA PESQUISA DE AUDIÃŠNCIA DE CANAL DE TV EM VÃRIAS CASAS DE UMA CERTA CIDADE, NUM DETERMINADO DIA.
+//PARA CADA CASA VISITADA, Ã‰ FORNECIDO O NÃšMERO DO CANAL (2,4,5,7,9,11 OU 13) E O NÃšMERO DE PESSOAS QUE O ESTAVAM
 //ASSISTINDO NAQUELA CASA. FAZER UM ALGORITMO QUE:
-//? LEIA UM NÚMERO INDETERMINADO DE DADOS, SENDO QUE PARA PARAR DIGITE O NÚMERO DE CANAL IGUAL A 0(ZERO);
-//? CALCULE E ESCREVA A PORCENTAGEM DE AUDIÊNCIA DE CADA EMISSORA.
+//? LEIA UM NÃšMERO INDETERMINADO DE DADOS, SENDO QUE PARA PARAR DIGITE O NÃšMERO DE CANAL IGUAL A 0(ZERO);
+//? CALCULE E ESCREVA A PORCENTAGEM DE AUDIÃŠNCIA DE CADA EMISSORA.
 
-	// Função : Pesquisa de audiência.
+	// FunÃ§Ã£o : Pesquisa de audiÃªncia.
 	// Autor : Luiz Araujo e Caroline Silva
 	// Data : 11/06/2017
 programa
-{inclua biblioteca Matematica --> mt
+{
+inclua biblioteca Matematica --> mt
 	funcao inicio()
 	{inteiro canal
 	real  nmrpessoas, nmrpessoas2=0.0, nmrpessoas4=0.0, nmrpessoas5=0.0, nmrpessoas7=0.0, nmrpessoas9=0.0, nmrpessoas11=0.0, nmrpessoas13=0.0, 
@@ -19,7 +20,7 @@ programa
 			escreva("Qual o canal? ")
 			leia(canal)
 			se(canal>0){
-			escreva("Número de pessoas? ")
+			escreva("NÃºmero de pessoas? ")
 			leia(nmrpessoas)
 			nmrcasas++
 
@@ -63,7 +64,7 @@ programa
 					pare
 				caso contrario:
 				nmrcasas--
-				escreva("\n\nDigite um número de canal válido.\n")
+				escreva("\n\nDigite um nÃºmero de canal vÃ¡lido.\n")
 					pare
 				}}}
 				enquanto(canal!=0)
@@ -87,7 +88,7 @@ programa
 				porc11=(canal11/nmrcasas)*100
 				porc13=(canal13/nmrcasas)*100
 		
-					escreva("A porcentagem de audiência por casas é de: \n\n")
+					escreva("A porcentagem de audiÃªncia por casas Ã© de: \n\n")
 					escreva("Canal 2:..............................", mt.arredondar(porc2, 2), "%")
 					escreva("\nCanal 4:..............................", mt.arredondar(porc4, 2), "%")
 					escreva("\nCanal 5:..............................", mt.arredondar(porc5, 2), "%")
@@ -104,7 +105,7 @@ programa
 				porc11=(nmrpessoas11/nmrtotal)*100
 				porc13=(nmrpessoas13/nmrtotal)*100	
 	
-					escreva("\n\nA porcentagem de audiência por pessoa é de: \n\n")
+					escreva("\n\nA porcentagem de audiÃªncia por pessoa Ã© de: \n\n")
 					escreva("Canal 2:..............................", mt.arredondar(porc2, 2), "%")
 					escreva("\nCanal 4:..............................", mt.arredondar(porc4, 2), "%")
 					escreva("\nCanal 5:..............................", mt.arredondar(porc5, 2), "%")
@@ -114,14 +115,3 @@ programa
 					escreva("\nCanal 13:.............................", mt.arredondar(porc13, 2), "%")
 
 }}
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 529; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
