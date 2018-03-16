@@ -1,18 +1,19 @@
-//5) NUM FRIGORÕFICO EXISTEM 90 BOIS. CADA BOI TRAZ PRESO EM SEU PESCO«O UM CART√O CONTENDO SEU N⁄MERO DE 
-//IDENTIFICA«√O E SEU PESO. FA«A UM ALGORITMO QUE EXIBA O N⁄MERO E O PESO DO BOI MAIS GORDO E DO BOI MAIS MAGRO 
-//(SUPONDO QUE N√O HAJA EMPATES).
+//5) NUM FRIGOR√çFICO EXISTEM 90 BOIS. CADA BOI TRAZ PRESO EM SEU PESCO√áO UM CART√ÉO CONTENDO SEU N√öMERO DE 
+//IDENTIFICA√á√ÉO E SEU PESO. FA√áA UM ALGORITMO QUE EXIBA O N√öMERO E O PESO DO BOI MAIS GORDO E DO BOI MAIS MAGRO 
+//(SUPONDO QUE N√ÉO HAJA EMPATES).
 
-	// FunÁ„o : Boi mais magro e mais gordo.
+	// Fun√ß√£o : Boi mais magro e mais gordo.
 	// Autor : Luiz Araujo e Caroline Silva
 	// Data : 11/06/2017
 programa
 {
 	funcao inicio()
-	{inteiro numbois=0, numboi, numgordo, nummagro
+	{
+inteiro numbois=0, numboi, numgordo, nummagro
 	real pesogordo=0.0, pesomagro=2500.0, pesoboi
 
 	faca{
-		escreva("N˙mero de identificaÁ„o do boi: ")
+		escreva("N√∫mero de identifica√ß√£o do boi: ")
 		leia(numboi)
 		escreva("Peso do boi: ")
 		leia(pesoboi)
@@ -27,20 +28,8 @@ programa
 					numbois=numbois+1}
 			}enquanto(numbois<90)
 		limpa()
-		escreva("O n˙mero do boi mais gordo È: ", numgordo, " com peso de: ", pesogordo, " quilos.")
-		escreva("\n\nO n˙mero do boi mais magro È: ", nummagro, " com peso de: ", pesomagro, " quilos.")
+		escreva("O n√∫mero do boi mais gordo √©: ", numgordo, " com peso de: ", pesogordo, " quilos.")
+		escreva("\n\nO n√∫mero do boi mais magro √©: ", nummagro, " com peso de: ", pesomagro, " quilos.")
 	}
 		
 	}
-
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seÁ„o do arquivo guarda informaÁıes do Portugol Studio.
- * VocÍ pode apag·-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 338; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
