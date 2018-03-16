@@ -1,29 +1,17 @@
-/* Luiz Carlos 1ºN
- * Fillipe Schiavi 1ºN
+/* Luiz Carlos 1ÂºN
  *
- *Problema 05:	ESCREVA UM ALGORITMO QUE LEIA UM NÚMERO INTEIRO POSITIVO E EXIBA O DOBRO DO MESMO.
+ *Problema 05:	ESCREVA UM ALGORITMO QUE LEIA UM NÃšMERO INTEIRO POSITIVO E EXIBA O DOBRO DO MESMO.
  */
 
 programa
 {
 	funcao inicio()
-	{inteiro n1// NÚMERO INTEIRO
+	{inteiro n1// NÃšMERO INTEIRO
 	 
 	 
-	escreva("Entre um número que você queira ver o dobro: ")
-	leia(n1) // NÚMERO
-	escreva("O dobro de ", n1, " é ", n1*2) // DOBRO DO NÚMERO INTEIRO0
+	escreva("Entre um nÃºmero que vocÃª queira ver o dobro: ")
+	leia(n1) // NÃšMERO
+	escreva("O dobro de ", n1, " Ã© ", n1*2) // DOBRO DO NÃšMERO INTEIRO0
 	
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 361; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
