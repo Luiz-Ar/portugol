@@ -1,33 +1,22 @@
-/* Luiz Carlos 1∫N
- * Fillipe Schiavi 1∫N
+/* Luiz Carlos 1¬∫N
  *
- *Problema 04:	FAZER A TRANSFORMA«√O DE UM VALOR EM D”LAR, PARA A MOEDA CORRENTE NO BRASIL, INFORMANDO A QUANTIDADE
- *DE D”LARES E O ÕNDICE DE CONVERS√O.
+ *Problema 04:	FAZER A TRANSFORMA√á√ÉO DE UM VALOR EM D√ìLAR, PARA A MOEDA CORRENTE NO BRASIL, INFORMANDO A QUANTIDADE
+ *DE D√ìLARES E O √çNDICE DE CONVERS√ÉO.
  */
 
 programa
-{inclua biblioteca Matematica --> mat
+{
+inclua biblioteca Matematica --> mat
 	funcao inicio()
-	{real dl, c // D”LAR, CONVERS√O
+	{real dl, c // D√ìLAR, CONVERS√ÉO
 	 
 	 
-	escreva("Entre o valor em dÛlar: ")
-	leia(dl) // D”LAR
-	escreva("Entre o Ìndice de convers„o (quantos reias vale um dÛlar): ")
-	leia(c) // ÕNDICE DE CONVERS√O
+	escreva("Entre o valor em d√≥lar: ")
+	leia(dl) // D√ìLAR
+	escreva("Entre o √≠ndice de convers√£o (quantos reias vale um d√≥lar): ")
+	leia(c) // √çNDICE DE CONVERS√ÉO
 
 	
-	escreva("U$$ ", dl, " = R$ ", mat.arredondar(dl*c, 2)) // RESULTADO DO C¡LCULO
+	escreva("U$$ ", dl, " = R$ ", mat.arredondar(dl*c, 2)) // RESULTADO DO C√ÅLCULO
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seÁ„o do arquivo guarda informaÁıes do Portugol Studio.
- * VocÍ pode apag·-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 552; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
