@@ -1,23 +1,27 @@
-programa{
+programa
+{
 inclua biblioteca Matematica --> mat
-	funcao inicio(){
-		real a, b, c, x1, x2, delta, zero, zero2
+	funcao inicio()
+{
+		real a, b, c, x1, x2, 
+delta, zero, zero2
 
-		escreva("Entre a váriavel a: ")
+		escreva("Entre a vÃ¡riavel a: ")
 		leia(a)
-		escreva("Entre a váriavel b: ")
+		escreva("Entre a vÃ¡riavel b: ")
 		leia(b)
-		escreva("Entre a váriavel c: ")
-		leia(c)
+		escreva("Entre a vÃ¡riavel c: ")
+		
+leia(c)
 
 		
 		delta=mat.potencia(b, 2)-4*a*c
-		escreva("O delta é: ", delta)
+		escreva("O delta Ã©: ", delta)
 
 		x1=(-b-mat.raiz(delta, 2))/(2*a)
-		escreva("\nO resultado da raiz negativa é: " , x1)
+		escreva("\nO resultado da raiz negativa Ã©: " , x1)
 		x2=(-b+mat.raiz(delta, 2))/(2*a)
-		escreva("\nO resultado da raiz positiva é: ", x2)
+		escreva("\nO resultado da raiz positiva Ã©: ", x2)
 
 		zero=a*mat.potencia(x1, 2)+b*x1+c
 		escreva("\n", zero)
@@ -27,14 +31,3 @@ inclua biblioteca Matematica --> mat
 		
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 613; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
