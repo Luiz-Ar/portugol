@@ -1,13 +1,14 @@
-/*Nome: Luiz Carlos Araujo - Exercício Lógica - Decisão
+/*Nome: Luiz Carlos Araujo - ExercÃ­cio LÃ³gica - DecisÃ£o
  * 
- * 4) JOÃO PAPO-DE-PESCADOR, HOMEM DE BEM, COMPROU UM MICROCOMPUTADOR PARA CONTROLAR O RENDIMENTO DIÁRIO DE SEU TRABALHO.
- * TODA VEZ QUE ELE TRAZ UM PESO DE PEIXES MAIOR QUE O ESTABELECIDO PELO REGULAMENTO DE PESCA DO ESTADO DE SÃO PAULO (50 QUILOS)
- * DEVE PAGAR UMA MULTA DE R% 4,00 POR QUILO EXCEDENTE. JOÃO PRECISA QUE VOCÊ FAÇA UM ALGORITMO QUE LEIA A VÁRIAVEL P (PESO DE
- * PEIXES) E VERIFIQUE SE HÁ EXCESSO. SE HOUVER, ARMAZENAR NA VARIÁVEL E (EXCESSO) E NA VÁRIAVEL M O VALOR DA MULTA QUE JOÃO 
- * DEVERÁ PAGAR, EXIBINDO OS RESPECTIVOS VALORES. CASO CONTRÁRIO MOSTRAR TAIS VARIÁVIES COM O CONTEÚDO ZERO.
+ * 4) JOÃƒO PAPO-DE-PESCADOR, HOMEM DE BEM, COMPROU UM MICROCOMPUTADOR PARA CONTROLAR O RENDIMENTO DIÃRIO DE SEU TRABALHO.
+ * TODA VEZ QUE ELE TRAZ UM PESO DE PEIXES MAIOR QUE O ESTABELECIDO PELO REGULAMENTO DE PESCA DO ESTADO DE SÃƒO PAULO (50 QUILOS)
+ * DEVE PAGAR UMA MULTA DE R% 4,00 POR QUILO EXCEDENTE. JOÃƒO PRECISA QUE VOCÃŠ FAÃ‡A UM ALGORITMO QUE LEIA A VÃRIAVEL P (PESO DE
+ * PEIXES) E VERIFIQUE SE HÃ EXCESSO. SE HOUVER, ARMAZENAR NA VARIÃVEL E (EXCESSO) E NA VÃRIAVEL M O VALOR DA MULTA QUE JOÃƒO 
+ * DEVERÃ PAGAR, EXIBINDO OS RESPECTIVOS VALORES. CASO CONTRÃRIO MOSTRAR TAIS VARIÃVIES COM O CONTEÃšDO ZERO.
  */
 programa
-{inclua biblioteca Matematica --> mat
+{
+inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{real P, E, M // PESO, EXCESSO, MULTA
 	
@@ -16,26 +17,15 @@ programa
 		se(P<=50){
 			M=0
 			E=0
-			escreva("\nO peso dos seus peixes foi de: ", P, " quilos", "\nEste peso está dentro do regulamento de pesca do Estado de São Paulo", 
+			escreva("\nO peso dos seus peixes foi de: ", P, " quilos", "\nEste peso estÃ¡ dentro do regulamento de pesca do Estado de SÃ£o Paulo", 
 			"\nExcesso: ", E, "\nMulta: ", M)}
 
 			senao{
 				M=P*4
 				E=P-50
-				escreva("\nO peso dos seus peixes foi de: ", P, " quilos", "\nEste peso está acima do que é estabeleciso pelo regulamento",
-				"\nTeve o exceso de: ", E, " quilos", "\nTerá que pagar uma multa de R$ ", mat.arredondar(M,2)) }
+				escreva("\nO peso dos seus peixes foi de: ", P, " quilos", "\nEste peso estÃ¡ acima do que Ã© estabeleciso pelo regulamento",
+				"\nTeve o exceso de: ", E, " quilos", "\nTerÃ¡ que pagar uma multa de R$ ", mat.arredondar(M,2)) }
 	
 		
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 676; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
