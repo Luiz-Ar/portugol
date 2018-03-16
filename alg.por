@@ -2,7 +2,8 @@ programa
 {
 inclua biblioteca Matematica --> mat
 	funcao inicio()
-	{real a, r, ar, li, qtde, c
+	{
+real a, r, ar, li, qtde, c
 
 	escreva("Entre a altura do cilindro: ")
 	leia(a)
@@ -13,22 +14,11 @@ inclua biblioteca Matematica --> mat
 	li = (ar/3)
 	qtde = (li/5)
 	c = (qtde*50.00)
-	escreva("A área do cilindro é: ", ar, 
-	"\nA quantidae em litros de tinta é de: ", li, " litros", 
-	"\nA quantidade de latas de tinta é de: ", qtde, " latas", 
-	"\nO custo será de: ", c, " reais")	
+	escreva("A Ã¡rea do cilindro Ã©: ", ar, 
+	"\nA quantidae em litros de tinta Ã© de: ", li, " litros", 
+	"\nA quantidade de latas de tinta Ã© de: ", qtde, " latas", 
+	"\nO custo serÃ¡ de: ", c, " reais")	
 
 	 
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 491; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
