@@ -1,5 +1,4 @@
-/* Luiz Carlos 1∫N
- * Fillipe Schiavi 1∫N
+/* Luiz Carlos 1¬∫N
  *
  *Problema 03: ESCREVA UM ALGORITMO QUE CALCULE: C = (A + B ) * B.
  */
@@ -16,19 +15,8 @@ programa
 	leia(b) // ALGORITMO B
 
 	
-	escreva("O valor do Algoritmo C È: ", (a+b)*b) // RESULTADO DO C¡LCULO
+	escreva("O valor do Algoritmo C √©: ", (a+b)*b) // RESULTADO DO C√ÅLCULO
 	
 		
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seÁ„o do arquivo guarda informaÁıes do Portugol Studio.
- * VocÍ pode apag·-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 41; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
