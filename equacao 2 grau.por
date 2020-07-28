@@ -11,8 +11,7 @@ delta, zero, zero2
 		escreva("Entre a váriavel b: ")
 		leia(b)
 		escreva("Entre a váriavel c: ")
-		
-leia(c)
+		leia(c)
 
 		
 		delta=mat.potencia(b, 2)-4*a*c
